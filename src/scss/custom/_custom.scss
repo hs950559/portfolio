@@ -1,0 +1,63 @@
+// Here you can add other styles
+body,
+h1[id] {
+    padding-top: 55px;
+}
+
+.bd-example {
+    margin-top: 2rem;
+    position: relative;
+
+
+    .popover-top{
+        top: 120px;
+        left: 0;
+    }
+    .popover-right{
+        top: 120px;
+        left: 50%;
+    }
+    .popover-bottom{
+        top: 320px; 
+        left: 0;
+    }
+    .popover-left{
+        top: 320px; 
+        left: 50%;
+    }
+}
+
+
+
+.bd-example>.alert+.alert,
+.bd-example>.nav+.nav,
+.bd-example>.navbar+.navbar,
+.bd-example>.progress+.btn,
+.bd-example>.progress+.progress {
+    margin-top: 1rem;
+}
+
+.bd-example-modal .modal {
+    bottom: auto;
+    display: block;
+    left: auto;
+    position: relative;
+    right: auto;
+    top: auto;
+    z-index: 1;
+}
+
+/*.popover {
+    display: block;
+    float: left;
+    margin: 1.25rem;
+    position: relative;
+    width: 260px;
+}*/
+
+@include media-breakpoint-down(xl) { 
+    .bg{
+        background-color: red;
+        border: 4px solid red;
+    }
+ }
